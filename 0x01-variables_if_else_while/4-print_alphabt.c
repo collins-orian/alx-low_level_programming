@@ -6,11 +6,10 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char i = 'a';
-	
+
 	while (i <= 'z')
 	{
 		if (i != 'e' && i != 'q')
