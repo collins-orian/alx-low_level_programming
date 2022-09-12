@@ -17,10 +17,10 @@ int main(void)
 		n++;
 	}
 	while (l <= 'f')
-        {
-                putchar(l);
-                l++;
-        }
+	{
+		putchar(l);
+		l++;
+	}
 	putchar('\n');
 	return (0);
 }
