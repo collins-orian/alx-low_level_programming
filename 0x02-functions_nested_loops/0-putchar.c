@@ -1,5 +1,5 @@
-#include "main.h"
 #include <string.h>
+#include "_putchar.h"
 
 /**
  * main - Entry point
@@ -18,5 +18,5 @@ int main(void)
         _putchar(str[ch]);
     _putchar('\n');
 
-    return (0);
+    return 0;
 }
