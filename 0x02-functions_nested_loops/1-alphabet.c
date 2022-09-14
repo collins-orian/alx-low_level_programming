@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet
+ * print_alphabet - function will print alphabets
  *
  * Description: prints _putchar using putchar prototype
  *
