@@ -19,7 +19,7 @@ int main(void)
 	{
 		sum = fib1 + fib2;
 
-		if (sum > 100)
+		if (sum > 120)
 			break;
 
 		if ((sum % 2) == 0)
