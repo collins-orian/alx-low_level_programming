@@ -1,5 +1,27 @@
 #include "main.h"
-#include <math.h>
+
+/**
+ * sqrt_manual - calculate manualy the sqrt of a number.
+ * @n: natural number
+ * @i: counter or number to be multiplied.
+ *
+ * Return: sqrt 0 if sqrt is not natural.
+ */
+int sqrt_manual(int n, int i)
+{
+	if (i * i == n)
+	{
+		return (i);
+	}
+	else if (i * i > n)
+	{
+		return (-1);
+	}
+	else
+	{
+		return (sqrt_manual(n, i + 1));
+	}
+}
 
 /**
  * _sqrt_recursion - return the sqrt of a natural number.
@@ -20,6 +42,6 @@ int _sqrt_recursion(int n)
 	}
 	else
 	{
-		return (sqrt(n));
+		return (sqrt_manual(n, 1));
 	}
 }
