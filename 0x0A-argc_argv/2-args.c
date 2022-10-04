@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 	{
 		printf("%s\n", argv[number]);
 		number++;
-		argv++;
+		(*argv)++;
 	}
 	return (0);
 }
